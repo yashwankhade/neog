@@ -106,6 +106,12 @@
         flex:0 1 85%;
         margin:1rem;
     }
+    #about-img{
+        width:95%;
+    }
+    #navbar{
+        width:85vw;
+    }
 }
 
 h3{
