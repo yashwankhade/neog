@@ -1,0 +1,151 @@
+:root{
+    --primary-color: #A0FB00;
+    font-family: monospace;
+    font-size: 1.1rem;
+    --bg-color:#F2F2F2;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+    margin:auto;
+    padding:0.8rem;
+    width:70vw;
+    background: var(--primary-color);
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    box-shadow: .6rem .6rem rgb(72, 240, 142);
+}
+
+#navbar li{
+    padding:.5rem;
+    text-align: right;
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.nav-links{
+    text-align: right;
+}
+#about{
+    margin-top:2em;
+}
+
+#about_img{
+    width:45%;
+    /* margin:3rem auto; */
+}
+
+.info{
+    
+    text-align: center;
+}
+
+#about-img{
+    margin:3rem auto;
+    width:62vw;
+    /* max-width: 95vw; */
+}
+
+.heading{
+    margin:1.5rem auto;
+    text-align: center;
+}
+
+.about-me{
+    padding:1rem;
+    display: flex;
+     
+    margin:auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:65%;
+   
+    background: var(--bg-color);
+}
+
+.about-me p{
+    padding:1em;
+}
+
+.project-container{
+     
+    display: flex;
+    flex:0 1 25%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project{
+    flex:0 1 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:.5rem;
+    border-radius: 5px;
+    justify-content: space-around;
+    border:var(--primary-color) 2px solid;
+    box-shadow: .6rem .6rem rgb(72, 240, 142);
+     
+}
+.project-img{
+    border-radius: 5px;
+    width:80%;
+    margin:auto;
+    height:auto;
+}
+
+@media(max-width:600px){
+    .project{
+        flex:0 1 85%;
+        margin:1rem;
+    }
+}
+
+h3{
+    text-align: center;
+    margin:1rem auto;
+}
+
+p{
+    margin: .5rem auto;
+    text-align: center;
+}
+  .button{
+      cursor: pointer;
+    width:75%;
+    display: block;
+    margin:.3rem auto;
+    padding:.5rem;
+    background-color: #A0FB00;
+    border: none;
+    font-family: monospace;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#contact{
+    position: relative;
+    bottom:0%;
+    background-color: var(--primary-color);
+    padding: 0.1rem;
+    margin:2rem 0 0 0;
+}
+.icons{
+    text-align: center;
+}
+.icon{
+    margin:.5rem;
+    width:1.8rem;
+}
