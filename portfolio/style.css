@@ -33,14 +33,29 @@
     text-align: right;
 }
 #about{
-    margin-top:2em;
+    display: flex;
+    width:55%;
+    height: 15rem;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* border:var(--primary-color) 2px solid; */
+    background-color: var(--bg-color);
+    /* justify-content: center; */
+    justify-content: center;
+    margin:2em auto;
 }
 
 #about_img{
-    width:45%;
+    width:100%;
+    /* height: 20em; */
     /* margin:3rem auto; */
 }
-
+.item{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+}
 .info{
     
     text-align: center;
@@ -113,6 +128,13 @@
     #navbar{
         width:85vw;
     }
+    #about{
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 
 h3{
@@ -131,6 +153,7 @@ p{
     margin:.3rem auto;
     padding:.5rem;
     background-color: #A0FB00;
+    box-shadow: 0 6px 6px -4px #9bf500 ;
     border: none;
     font-family: monospace;
     font-size: 1.1rem;
