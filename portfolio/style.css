@@ -119,6 +119,19 @@
   margin: auto;
   height: auto;
 }
+.call-for-action {
+  cursor: pointer;
+  width: 20vw;
+  display: block;
+  margin: 3rem auto;
+  padding: 0.5rem;
+  background-color: #a0fb00;
+  box-shadow: 0 6px 6px -4px #9bf500;
+  border: none;
+  font-family: monospace;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
 
 @media (max-width: 600px) {
   .project {
@@ -148,6 +161,9 @@
    .item ul{
     padding:0.2rem;
    }
+   .call-for-action{
+     width:60vw;
+   }
 }
 
 h3 {
@@ -172,19 +188,7 @@ p {
   font-size: 1.1rem;
   border-radius: 5px;
 }
-.call-for-action {
-  cursor: pointer;
-  width: 20vw;
-  display: block;
-  margin: 3rem auto;
-  padding: 0.5rem;
-  background-color: #a0fb00;
-  box-shadow: 0 6px 6px -4px #9bf500;
-  border: none;
-  font-family: monospace;
-  font-size: 1.1rem;
-  border-radius: 5px;
-}
+
 
 a {
   color: black;
